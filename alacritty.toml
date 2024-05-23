@@ -1,0 +1,25 @@
+[shell]
+program = "/bin/zsh"
+args = ["-l"]
+
+[window]
+opacity = 0.8
+startup_mode = "Windowed"
+
+[scrolling]
+history = 100000
+
+[colors]
+selection = {text = "#000000", background = "#00d8ff"}
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = {blinking = "On"}
+blink_interval = 500
+blink_timeout = 120
+
+[keyboard]
+bindings = [
+{ key = "N", mods = "Control|Shift", action = "CreateNewWindow" },]
